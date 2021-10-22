@@ -1,0 +1,16 @@
+###
+POST http://localhost:3000/api/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Daniel",
+    "apellido": "Alvarado",
+    "telefono": "04141230000"
+}
+
+### 
+
+GET http://localhost:3000/api/registers HTTP/1.1
+
+###
+GET http://localhost:3000/api/registers/616f318da60b2d795dd3e9f3 HTTP/1.1
